@@ -1,0 +1,49 @@
+.Product{
+
+    margin-top: 50px;
+  
+}
+
+.col{
+    border: 1px solid white;
+
+}
+.row img{
+  float: left;
+}
+
+.topSpace{
+    margin-top: 10px;
+}
+
+
+
+
+
+.slideshow{
+
+    /*margin-top: auto;*/
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+  }
+  .slideshow a{
+    flex-basis: auto;
+  }
+  .cycle-slideshow img{
+    width: 100%;
+  }
+
+  @media screen and (max-width: 800px){
+    body{
+      background: rgb(212, 240, 243);
+    }
+  }
+  @media screen and (max-width: 600px){
+    body{
+      background: rgb(213, 203, 242);
+    }
+  }
+  
